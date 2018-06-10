@@ -1,9 +1,9 @@
 import { Stats } from './stats';
 
 export class Metadata {
-    gameLength: Number;
-    gameVersion: Number;
-    lastGameChunkId: Number;
-    lastKeyFrameId: Number;
+    gameLength: number;
+    gameVersion: String;
+    lastGameChunkId: number;
+    lastKeyFrameId: number;
     statsJson: Stats[];
 }
